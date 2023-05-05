@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.panelMainContainer {
+  width: 70vw;
+  background-color: #ffffff;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+}
+.leftPanelBottom {
+  width: 30vw;
+  height: 50vh;
+  background-color: #ffbf1f;
+  border-bottom-left-radius: 20px;
+  padding: 30px;
+}
+
+.leftPaneHeadingContainer {
+  height: 20vh;
+  background-color: #ffc533;
+  border-top-left-radius: 20px;
+  padding: 30px;
+}
+
+.leftPanelText {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #0f172a;
+}
+
+.rightPanel {
+  width: 30vw;
+  height: 70vh;
+  background-color: #0f172a;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+}
+
+.counterText {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffc533;
+}
+
+.inputText {
+  color: #334155;
+  padding: 6px 10px 6px 10px;
+  font-family: 'Roboto';
+  font-size: 10px;
+  width: 20vw;
+  height: 36px;
+  border-radius: 6px;
+  margin-right: 6px;
+}
+
+.button {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 32px;
+  background-color: #ffc533;
+  padding: 0px 8px 0px 8px;
+  border: none;
+  border-radius: 6px;
+}
+
+.InputButtonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.unOrderList {
+  padding-left: 0px;
+}
+
+.image {
+  width: 20vw;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40vh;
+}
